@@ -94,7 +94,7 @@ func main() {
 		cli.StringFlag{
 			Name:  "host",
 			Value: "",
-			Usage: "name of the image",
+			Usage: "host address of docker registry",
 		},
 		cli.StringFlag{
 			Name:  "image",
@@ -114,8 +114,8 @@ func main() {
 		cli.StringFlag{
 			Name:  "password",
 			Value: "",
-			Usage: "registry user name",
-		},
+			Usage: "registry user password",
+		},git
 		cli.IntFlag{
 			Name:  "exclude_last",
 			Value: 1,
