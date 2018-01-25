@@ -115,7 +115,7 @@ func main() {
 			Name:  "password",
 			Value: "",
 			Usage: "registry user password",
-		},git
+		},
 		cli.IntFlag{
 			Name:  "exclude_last",
 			Value: 1,
