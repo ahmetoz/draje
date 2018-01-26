@@ -29,3 +29,13 @@ GLOBAL OPTIONS:
    --help, -h             show help
    --version, -v          print the version
 ```
+
+## building the code 
+
+``` shell
+cd draje
+go install
+```
+- not: go install- builds and installs go code; if code is package main, it creates a binary executable and drops it in the workspace’s **bin** folder;
+
+- or you can download executables from [relases](https://github.com/ahmetoz/draje/releases)
